@@ -35,11 +35,22 @@
     using namespace std;
 
     int main(int argc, char const *argv[]) {
-        int a, b, c,d;
+        int a, b, c, d;
         cout << a << " " << b << " " << c << " " << d << " ";
         // 32767 1854144566 32767 1406933680
         return 0;
     }
 
 ```
-The output will depends on the system.
+    The output will depends on the system.
+
+7 Give good variable names for each of the following:
+    a. A variable to hold the speed of an automobile
+    b. A variable to hold the pay rate for an hourly employee
+    c. A variable to hold the highest score in an exam
+
+``` cpp
+    double speed;
+    double pay_rate;
+    double highest_score;
+```
