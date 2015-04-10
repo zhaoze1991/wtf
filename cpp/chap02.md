@@ -2,8 +2,8 @@
 ###2.1 Variables and assignments###
 1. Give the declaration for two variables called feet and inches. Both variables are of type int and both are to be initialized to zero in the declaration. Use both initialization alternatives.
     ``` cpp
-        int feet = 0, inches = 0;
-        int feet(0), inches(0);
+    int feet = 0, inches = 0;
+    int feet(0), inches(0);
     ```
 
 2. Give the declaration for two variables called count and distance. count is of type int and is initialized to zero. distance is of type double and is initialized to 1.5.
