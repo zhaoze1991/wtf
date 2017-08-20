@@ -32,6 +32,7 @@ Plugin 'tpope/vim-fugitive'
 " Plugin 'L9'
 " Git plugin not hosted on GitHub
 Plugin 'git://git.wincent.com/command-t.git'
+Plugin 'scrooloose/nerdcommenter'
 " git repos on your local machine (i.e. when working on your own plugin)
 "Plugin 'file:///home/gmarik/path/to/plugin'
 " The sparkup vim script is in a subdirectory of this repo called vim.
@@ -65,3 +66,9 @@ let g:ycm_global_ycm_extra_conf='~/.vim/bundle/YouCompleteMe/third_party/ycmd/cp
 ""    pyf /home/zhaoze/clang-format.py
 "endfunction
 "autocmd BufWritePre *.h,*.cc,*.ccp call FormatFile()
+
+
+
+"map <C-c> :s/^/\/\//<Enter>
+"map <C-u> :s/^\/\///<Enter>
+
